@@ -1,6 +1,5 @@
 ## 🤖 Welcome to my github profile!
 
-_I am focused on web development, particularly building MACH products (Microservice, API-first, Cloud-based, SaaS and Headless). This includes custom websites, web applications, and headless eCommerce systems._
 - ⌨ I am a `coder` from Poland, founder of [hex-to-rgb.com](https://hex-to-rgb.com), working with coding & tech since 2018.
 - 🛠 Currently working on a `headless e-commerce system` for [Shroom Drinks](https://shop.shroom4you.com).
 - 🔬 The stuff i work with mostly: `JavaScript, React, Node, Gatsby, Python, PHP, GraphQL, SQL, APIs, Wordpress`.
