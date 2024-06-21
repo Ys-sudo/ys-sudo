@@ -9,4 +9,3 @@
 📨 [ystudio.x.dev@gmail.com](mailto:ystudio.x.dev@gmail.com)
 
 ##### Check out my [glitch profile](https://glitch.com/@ys-sudo) for more projects!
-###### Here you will find some of my open-source projects as well as information about the things I do.
