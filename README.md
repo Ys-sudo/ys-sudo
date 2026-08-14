@@ -1,77 +1,112 @@
+<div align="center">
+
 # George Lazaridis
 
-**Founder of [Coded Letter](https://codedletter.com) and product engineer
-building open-source commerce infrastructure, practical integrations, and
-creative technology.**
+**Founder of [Coded Letter](https://codedletter.com) · Product engineer · Creative technologist**
 
-Based in Poland, I work across product strategy, full-stack engineering,
-design, and technical stewardship. I like ambitious ideas, difficult
-integrations, open foundations, and software with a little personality.
+I build open commerce systems, useful experiments, and software with a point of view.
 
-[Coded Letter](https://codedletter.com) |
-[Superfunky](https://superfunky.pro) |
-[Open-source organization](https://github.com/coded-letter)
+[![Coded Letter](https://img.shields.io/badge/Coded_Letter-visit-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://codedletter.com)
+[![Superfunky](https://img.shields.io/badge/Superfunky-explore-DE38FF?style=for-the-badge&logo=woocommerce&logoColor=white)](https://superfunky.pro)
+[![Open Source](https://img.shields.io/badge/Open_Source-coded--letter-2EA44F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/coded-letter)
 
-## What I am building
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
+![WooCommerce](https://img.shields.io/badge/WooCommerce-96588A?style=flat-square&logo=woocommerce&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 
-My current focus is **Superfunky**, an open-core platform for modern WordPress
-and WooCommerce storefronts.
+</div>
 
-It keeps content, products, orders, and publishing workflows in WordPress while
-giving customers a fast TypeScript and React storefront. The open-source
-foundations are being developed in public, with commercial integrations and
-production tooling maintained by Coded Letter.
+## Areas of work
 
-| Project | Purpose |
-| --- | --- |
-| [Superfunky Storefront](https://github.com/coded-letter/superfunky-storefront) | React, Vite, and TypeScript storefront foundation for headless WordPress and WooCommerce |
-| [Superfunky Theme](https://github.com/coded-letter/superfunky-theme) | Headless WordPress block theme with WPGraphQL and WooGraphQL integration |
-| [Woo Google Sheets](https://github.com/coded-letter/woo-google-sheets) | Style-preserving WooCommerce order synchronization for Google Sheets |
-| [Admin Dark Mode](https://github.com/coded-letter/admin-dark-mode) | Accessible dark mode for the WordPress admin and block editor |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏢 Business & commerce
+
+At **[Coded Letter](https://codedletter.com)** I design and build products,
+integrations, and dependable commerce systems.
+
+- **[Superfunky](https://superfunky.pro)** — open-core headless commerce
+- **[Storefront](https://github.com/coded-letter/superfunky-storefront)** — React + TypeScript
+- **[WordPress theme](https://github.com/coded-letter/superfunky-theme)** — Gutenberg + GraphQL
+- **[Woo Google Sheets](https://github.com/coded-letter/woo-google-sheets)** — operations automation
+
+</td>
+<td width="50%" valign="top">
+
+### 🌱 Plants & connected things
+
+Software and hardware for understanding and caring for plants.
+
+- **[Plant Guardian](https://plantguardian.app)** — private product web app
+- **[Plant Growth Tracker](https://github.com/Ys-sudo/plant-growth-tracker)** — camera-based growth tracking
+- **Plantstation** — private sensor and automation R&D
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎨 Color systems
+
+Product R&D around palettes, conversion, visual discovery, and color data.
+
+- **Colorbase** — legacy color platform
+- **Colorcloud** — next-generation private product
+- Shared focus: useful color tools with strong visual UX
+
+</td>
+<td width="50%" valign="top">
+
+### 👁️ Computer vision
+
+Practical browser experiments that turn cameras and images into interfaces.
+
+- **[Hair Coloring App](https://ys-sudo.github.io/hair-coloring-app/)** — live MediaPipe segmentation
+- **[Source](https://github.com/Ys-sudo/hair-coloring-app)** — MIT, private-by-design processing
+- **[AR Face Mask](https://github.com/Ys-sudo/mediapipe-ar-facemask)** — landmarks and segmentation
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### ✨ Creative coding
+
+Interactive graphics, sound, VR, browser tools, and small experiments:
+**[Image2Sound](https://github.com/Ys-sudo/Image2Sound)** ·
+**[PUUF VR](https://github.com/Ys-sudo/puuf-vr-project)** ·
+**[Earth Explorer](https://github.com/Ys-sudo/earth-explorer-3d-globe)** ·
+**[p5.js animations](https://github.com/Ys-sudo/p5-js-animations)**.
+
+</td>
+</tr>
+</table>
 
 ## Community favorites
 
-These projects reflect the creative and experimental work behind my product
-engineering practice.
+[![Hair Coloring stars](https://img.shields.io/github/stars/Ys-sudo/hair-coloring-app?style=for-the-badge&logo=github&label=Hair%20Coloring)](https://github.com/Ys-sudo/hair-coloring-app)
+[![OpenAI Firebase stars](https://img.shields.io/github/stars/Ys-sudo/gatsby-openai-firebase-starter?style=for-the-badge&logo=github&label=OpenAI%20Firebase)](https://github.com/Ys-sudo/gatsby-openai-firebase-starter)
+[![Image2Sound stars](https://img.shields.io/github/stars/Ys-sudo/Image2Sound?style=for-the-badge&logo=github&label=Image2Sound)](https://github.com/Ys-sudo/Image2Sound)
+[![PUUF VR stars](https://img.shields.io/github/stars/Ys-sudo/puuf-vr-project?style=for-the-badge&logo=github&label=PUUF%20VR)](https://github.com/Ys-sudo/puuf-vr-project)
 
-| Project | What it explores |
-| --- | --- |
-| [Hair Coloring App](https://github.com/Ys-sudo/hair-coloring-app) | Real-time MediaPipe hair segmentation and browser-based color visualization |
-| [Gatsby OpenAI Firebase Starter](https://github.com/Ys-sudo/gatsby-openai-firebase-starter) | Historical OpenAI and Firebase Q&A application starter |
-| [Image2Sound](https://github.com/Ys-sudo/Image2Sound) | Python desktop application for translating image data into sound |
-| [PUUF VR Project](https://github.com/Ys-sudo/puuf-vr-project) | Interactive A-Frame virtual-reality experience for Oculus Touch |
+<details>
+<summary><strong>Full toolkit</strong></summary>
+<br>
 
-## What I work with
+`TypeScript` `JavaScript` `React` `Vite` `PHP` `WordPress` `WooCommerce`
+`Gutenberg` `GraphQL` `WPGraphQL` `Python` `MediaPipe` `Three.js` `A-Frame`
+`p5.js` `Firebase` `SQL` `GitHub Actions` `pnpm` `Turborepo` `Netlify`
 
-| Area | Technologies and practices |
-| --- | --- |
-| Commerce core | WordPress, WooCommerce, PHP, Gutenberg, WPGraphQL, WooGraphQL |
-| Product frontend | TypeScript, React, Vite, JavaScript, responsive and accessible UI |
-| Data and integrations | GraphQL, REST APIs, SQL, Firebase, payments, automation |
-| Delivery | GitHub Actions, pnpm, Turborepo, Netlify, release and deployment workflows |
-| Creative technology | MediaPipe, computer vision, Three.js, A-Frame, p5.js, Python |
+</details>
 
-## How I approach software
+---
 
-- **Human first:** useful, accessible interfaces beat cleverness for its own
-  sake.
-- **Open where it matters:** the foundation should be inspectable, extensible,
-  and portable.
-- **Secure by design:** permissions, privacy, verification, and safe data
-  boundaries belong in the architecture.
-- **Built to keep working:** maintainable source, documentation, testing, and
-  responsible releases are part of the product.
-- **Never beige:** serious engineering does not require generic ideas or
-  software without a point of view.
-
-## Work with me
-
-Through Coded Letter, I help teams turn early product ideas, commerce systems,
-and difficult integrations into maintainable software.
-
-Bring me a prototype, a growing product, an awkward legacy system, or an
-integration nobody wants to touch.
-
-[Visit Coded Letter](https://codedletter.com) |
-[Explore Superfunky](https://superfunky.pro) |
-[Browse Coded Letter projects](https://github.com/coded-letter)
+**Have an ambitious product, tangled integration, or commerce system that
+deserves better care? [Talk to Coded Letter →](https://codedletter.com)**
