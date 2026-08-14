@@ -27,7 +27,7 @@ I build open commerce systems, useful experiments, and software with a point of 
 <tr>
 <td width="50%" valign="top">
 
-### 🏢 Business & commerce
+### <img src="./assets/icons/business.svg" width="28" height="28" alt=""> Business & commerce
 
 At **[Coded Letter](https://codedletter.com)** I design and build products,
 integrations, and dependable commerce systems.
@@ -40,7 +40,7 @@ integrations, and dependable commerce systems.
 </td>
 <td width="50%" valign="top">
 
-### 🌱 Plants & connected things
+### <img src="./assets/icons/plants.svg" width="28" height="28" alt=""> Plants & connected things
 
 Software and hardware for understanding and caring for plants.
 
@@ -53,18 +53,18 @@ Software and hardware for understanding and caring for plants.
 <tr>
 <td width="50%" valign="top">
 
-### 🎨 Color systems
+### <img src="./assets/icons/colors.svg" width="28" height="28" alt=""> Color systems
 
 Product R&D around palettes, conversion, visual discovery, and color data.
 
-- **Colorbase** — legacy color platform
-- **Colorcloud** — next-generation private product
+- **[Colors Science](https://colors.science)** — color knowledge and exploration
+- **[Colorbase Cloud](https://colorbase.cloud)** — next-generation color platform
 - Shared focus: useful color tools with strong visual UX
 
 </td>
 <td width="50%" valign="top">
 
-### 👁️ Computer vision
+### <img src="./assets/icons/vision.svg" width="28" height="28" alt=""> Computer vision
 
 Practical browser experiments that turn cameras and images into interfaces.
 
@@ -77,7 +77,7 @@ Practical browser experiments that turn cameras and images into interfaces.
 <tr>
 <td colspan="2" valign="top">
 
-### ✨ Creative coding
+### <img src="./assets/icons/creative.svg" width="28" height="28" alt=""> Creative coding
 
 Interactive graphics, sound, VR, browser tools, and small experiments:
 **[Image2Sound](https://github.com/Ys-sudo/Image2Sound)** ·
@@ -88,6 +88,10 @@ Interactive graphics, sound, VR, browser tools, and small experiments:
 </td>
 </tr>
 </table>
+
+<p align="center">
+  <img src="./assets/work-spectrum.svg" width="900" alt="Animated signal connecting business, plants, color, computer vision, and creative coding">
+</p>
 
 ## Community favorites
 
@@ -105,6 +109,10 @@ Interactive graphics, sound, VR, browser tools, and small experiments:
 `p5.js` `Firebase` `SQL` `GitHub Actions` `pnpm` `Turborepo` `Netlify`
 
 </details>
+
+<p align="center">
+  <img src="./assets/build-loop.svg" width="900" alt="Animated product loop from discovery through prototyping, shipping, and learning">
+</p>
 
 ---
 

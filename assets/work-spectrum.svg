@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+  <title id="title">Connected areas of work</title>
+  <desc id="desc">An animated signal flows through business, plants, color, vision, and creative coding.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1">
+      <stop stop-color="#11131A"/>
+      <stop offset="1" stop-color="#191425"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" x2="1">
+      <stop stop-color="#DE38FF"/>
+      <stop offset=".25" stop-color="#4CCB7F"/>
+      <stop offset=".5" stop-color="#FFB02E"/>
+      <stop offset=".75" stop-color="#55B7FF"/>
+      <stop offset="1" stop-color="#FF6B9D"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .signal-line { animation: signal-dash 5s linear infinite; }
+    .signal-dot { animation: signal-move 6s ease-in-out infinite; }
+    @keyframes signal-dash {
+      to { stroke-dashoffset: -184; }
+    }
+    @keyframes signal-move {
+      0% { transform: translate(90px, 118px); }
+      25% { transform: translate(270px, 118px); }
+      50% { transform: translate(450px, 118px); }
+      75% { transform: translate(630px, 118px); }
+      100% { transform: translate(810px, 118px); }
+    }
+  </style>
+  <rect width="900" height="220" rx="24" fill="url(#background)"/>
+  <text x="450" y="48" text-anchor="middle" fill="#F7F7FB" font-family="system-ui, sans-serif" font-size="18" font-weight="700" letter-spacing="3">ONE BUILD SYSTEM</text>
+  <path id="track" d="M90 118 C180 55 270 181 360 118 S540 55 630 118 720 181 810 118" fill="none" stroke="#353948" stroke-width="3"/>
+  <path class="signal-line" d="M90 118 C180 55 270 181 360 118 S540 55 630 118 720 181 810 118" fill="none" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-dasharray="28 18"/>
+  <circle class="signal-dot" r="7" fill="#FFFFFF" filter="url(#glow)"/>
+  <g font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+    <g transform="translate(90 118)"><circle r="15" fill="#DE38FF"/><text y="45" fill="#DE38FF">BUSINESS</text></g>
+    <g transform="translate(270 118)"><circle r="15" fill="#4CCB7F"/><text y="45" fill="#4CCB7F">PLANTS</text></g>
+    <g transform="translate(450 118)"><circle r="15" fill="#FFB02E"/><text y="45" fill="#FFB02E">COLOR</text></g>
+    <g transform="translate(630 118)"><circle r="15" fill="#55B7FF"/><text y="45" fill="#55B7FF">VISION</text></g>
+    <g transform="translate(810 118)"><circle r="15" fill="#FF6B9D"/><text y="45" fill="#FF6B9D">CREATIVE</text></g>
+  </g>
+</svg>

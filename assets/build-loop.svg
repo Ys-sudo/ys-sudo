@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title desc">
+  <title id="title">Product engineering loop</title>
+  <desc id="desc">An animated line connects discover, prototype, ship, and learn.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#DE38FF"/>
+      <stop offset=".5" stop-color="#55B7FF"/>
+      <stop offset="1" stop-color="#4CCB7F"/>
+    </linearGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .loop-line { animation: loop-dash 3.6s linear infinite; }
+    .loop-dot { animation: loop-move 3.6s ease-in-out infinite; }
+    @keyframes loop-dash {
+      to { stroke-dashoffset: -670; }
+    }
+    @keyframes loop-move {
+      0% { transform: translate(115px, 90px); }
+      33% { transform: translate(338px, 90px); }
+      66% { transform: translate(562px, 90px); }
+      100% { transform: translate(785px, 90px); }
+    }
+  </style>
+  <rect width="900" height="180" rx="24" fill="#11131A"/>
+  <path id="loop" d="M115 90 H785" stroke="#343845" stroke-width="2"/>
+  <path class="loop-line" d="M115 90 H785" stroke="url(#line)" stroke-width="3" stroke-dasharray="60 610"/>
+  <circle class="loop-dot" r="6" fill="#FFFFFF" filter="url(#softGlow)"/>
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <g transform="translate(115 90)"><circle r="18" fill="#191C25" stroke="#DE38FF" stroke-width="2"/><text y="-34" fill="#F7F7FB" font-size="14" font-weight="700">DISCOVER</text></g>
+    <g transform="translate(338 90)"><circle r="18" fill="#191C25" stroke="#A95DFF" stroke-width="2"/><text y="-34" fill="#F7F7FB" font-size="14" font-weight="700">PROTOTYPE</text></g>
+    <g transform="translate(562 90)"><circle r="18" fill="#191C25" stroke="#55B7FF" stroke-width="2"/><text y="-34" fill="#F7F7FB" font-size="14" font-weight="700">SHIP</text></g>
+    <g transform="translate(785 90)"><circle r="18" fill="#191C25" stroke="#4CCB7F" stroke-width="2"/><text y="-34" fill="#F7F7FB" font-size="14" font-weight="700">LEARN</text></g>
+  </g>
+  <text x="450" y="145" text-anchor="middle" fill="#A9ADBA" font-family="system-ui, sans-serif" font-size="13" letter-spacing="2">IDEA → PRODUCT → OPEN SOURCE → BETTER PRODUCT</text>
+</svg>
