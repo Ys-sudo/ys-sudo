@@ -101,13 +101,53 @@ Interactive graphics, sound, VR, browser tools, and small experiments:
 [![Image2Sound stars](https://img.shields.io/github/stars/Ys-sudo/Image2Sound?style=for-the-badge&logo=github&label=Image2Sound)](https://github.com/Ys-sudo/Image2Sound)
 [![PUUF VR stars](https://img.shields.io/github/stars/Ys-sudo/puuf-vr-project?style=for-the-badge&logo=github&label=PUUF%20VR)](https://github.com/Ys-sudo/puuf-vr-project)
 
+## The machine room
+
+George works across the whole stack—from hardware and shell scripts to cloud
+platforms, interfaces, accessibility, and product delivery. When the machines
+need guidance, they ask for **`ys-sudo`**.
+
+**Languages & web foundations**
+
+![Classic JavaScript](https://img.shields.io/badge/Classic_JavaScript-favorite-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Shell scripting](https://img.shields.io/badge/Shell_Scripting-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
+
+**Frameworks, runtimes & data**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Gatsby](https://img.shields.io/badge/Gatsby.js-663399?style=flat-square&logo=gatsby&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+**Systems, hardware & cloud**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111)
+![macOS](https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
+
+**Design, quality & delivery**
+
+![Figma and UI design](https://img.shields.io/badge/Figma_%2F_UI_Design-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![SEO](https://img.shields.io/badge/SEO-4285F4?style=flat-square&logo=google&logoColor=white)
+![WCAG](https://img.shields.io/badge/WCAG-005A9C?style=flat-square&logo=w3c&logoColor=white)
+![Agile and Scrum](https://img.shields.io/badge/Agile_%2F_Scrum-0052CC?style=flat-square&logo=jira&logoColor=white)
+
 <details>
-<summary><strong>Full toolkit</strong></summary>
+<summary><strong>Additional toolkit</strong></summary>
 <br>
 
-`TypeScript` `JavaScript` `React` `Vite` `PHP` `WordPress` `WooCommerce`
-`Gutenberg` `GraphQL` `WPGraphQL` `Python` `MediaPipe` `Three.js` `A-Frame`
-`p5.js` `Firebase` `SQL` `GitHub Actions` `pnpm` `Turborepo` `Netlify`
+`TypeScript` `React` `Vite` `PHP` `WordPress` `WooCommerce` `Gutenberg`
+`GraphQL` `WPGraphQL` `Python` `MediaPipe` `Three.js` `A-Frame` `p5.js`
+`Firebase` `GitHub Actions` `pnpm` `Turborepo`
 
 </details>
 
