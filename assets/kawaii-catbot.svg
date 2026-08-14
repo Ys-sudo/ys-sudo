@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" role="img" aria-labelledby="title desc">
+  <title id="title">Kawaii cat robot avatar</title>
+  <desc id="desc">A small animated cat-shaped robot head with blinking eyes, a pulsing antenna, and circuit whiskers.</desc>
+  <style>
+    .catbot {
+      animation: hover 3.6s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .eyes {
+      animation: blink 5.4s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .ear {
+      animation: twitch 6.8s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: 65% 90%;
+    }
+    .signal {
+      animation: pulse 2.2s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .pixel {
+      animation: flicker 3s steps(2, end) infinite;
+    }
+    @keyframes hover {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+    @keyframes blink {
+      0%, 44%, 48%, 100% { transform: scaleY(1); }
+      46% { transform: scaleY(.08); }
+    }
+    @keyframes twitch {
+      0%, 74%, 84%, 100% { transform: rotate(0); }
+      77% { transform: rotate(-5deg); }
+      81% { transform: rotate(3deg); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: .7; transform: scale(.88); }
+      50% { opacity: 1; transform: scale(1.12); }
+    }
+    @keyframes flicker {
+      0%, 70%, 100% { opacity: 1; }
+      72%, 82% { opacity: .28; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <circle cx="120" cy="112" r="96" fill="#F6FBFF"/>
+  <path d="M30 112a90 90 0 0 1 180 0" fill="none" stroke="#DE38FF" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 12"/>
+  <path d="M42 158a90 90 0 0 0 156 0" fill="none" stroke="#00C7B7" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 12"/>
+
+  <g class="catbot">
+    <path d="M120 50V31" stroke="#111827" stroke-width="6" stroke-linecap="round"/>
+    <g class="signal">
+      <circle cx="120" cy="23" r="10" fill="#F7DF1E" stroke="#111827" stroke-width="5"/>
+      <circle cx="120" cy="23" r="3" fill="#FFF"/>
+    </g>
+
+    <g class="ear">
+      <path d="M51 79 61 35l43 28Z" fill="#61DAFB" stroke="#111827" stroke-width="6" stroke-linejoin="round"/>
+      <path d="m65 57 3-11 17 13Z" fill="#DE38FF"/>
+    </g>
+    <path d="m136 63 43-28 10 44Z" fill="#FF7EB6" stroke="#111827" stroke-width="6" stroke-linejoin="round"/>
+    <path d="m155 59 17-13 3 11Z" fill="#F7DF1E"/>
+
+    <rect x="43" y="58" width="154" height="128" rx="38" fill="#FFF" stroke="#111827" stroke-width="7"/>
+    <path d="M57 91c12-22 32-31 63-31s51 9 63 31" fill="#EAF8FF"/>
+    <path d="M76 77h88" stroke="#B9EAF6" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="67" cy="82" r="4" fill="#FF7EB6"/>
+    <circle cx="173" cy="82" r="4" fill="#00C7B7"/>
+
+    <g class="eyes">
+      <rect x="68" y="99" width="35" height="31" rx="13" fill="#111827"/>
+      <rect x="137" y="99" width="35" height="31" rx="13" fill="#111827"/>
+      <circle cx="91" cy="108" r="6" fill="#61DAFB"/>
+      <circle cx="160" cy="108" r="6" fill="#FF7EB6"/>
+      <circle cx="94" cy="106" r="2" fill="#FFF"/>
+      <circle cx="163" cy="106" r="2" fill="#FFF"/>
+    </g>
+
+    <rect x="101" y="134" width="38" height="27" rx="12" fill="#F6FBFF" stroke="#111827" stroke-width="5"/>
+    <path d="m112 146 8 6 8-6" fill="none" stroke="#DE38FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="76" cy="143" r="8" fill="#FFB6D3" opacity=".75"/>
+    <circle cx="164" cy="143" r="8" fill="#8DE8D9" opacity=".8"/>
+
+    <path d="M91 141H60l-15-10M91 151H55l-18 4M149 141h31l15-10M149 151h36l18 4" fill="none" stroke="#111827" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="44" cy="130" r="4" fill="#61DAFB"/>
+    <circle cx="36" cy="155" r="4" fill="#DE38FF"/>
+    <circle cx="196" cy="130" r="4" fill="#FF7EB6"/>
+    <circle cx="204" cy="155" r="4" fill="#F7DF1E"/>
+
+    <path d="M96 186v12h48v-12" fill="#B9EAF6" stroke="#111827" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M82 203h76" stroke="#111827" stroke-width="7" stroke-linecap="round"/>
+    <rect class="pixel" x="112" y="68" width="7" height="7" rx="2" fill="#00C7B7"/>
+    <rect class="pixel" x="122" y="68" width="7" height="7" rx="2" fill="#DE38FF" style="animation-delay:.45s"/>
+  </g>
+</svg>

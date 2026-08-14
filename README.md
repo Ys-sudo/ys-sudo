@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/kawaii-catbot.svg" width="160" alt="Animated kawaii cat robot avatar">
+
 # George Lazaridis
 
 **Founder of [Coded Letter](https://codedletter.com) · Product engineer · Creative technologist**
@@ -140,6 +142,13 @@ need guidance, they ask for **`ys-sudo`**.
 ![SEO](https://img.shields.io/badge/SEO-4285F4?style=flat-square&logo=google&logoColor=white)
 ![WCAG](https://img.shields.io/badge/WCAG-005A9C?style=flat-square&logo=w3c&logoColor=white)
 ![Agile and Scrum](https://img.shields.io/badge/Agile_%2F_Scrum-0052CC?style=flat-square&logo=jira&logoColor=white)
+
+**AI systems**
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logo=elevenlabs&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 
 <details>
 <summary><strong>Additional toolkit</strong></summary>
