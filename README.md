@@ -8,6 +8,7 @@ I build open commerce systems, useful experiments, and software with a point of 
 
 [![Coded Letter](https://img.shields.io/badge/Coded_Letter-visit-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://codedletter.com)
 [![Superfunky](https://img.shields.io/badge/Superfunky-explore-DE38FF?style=for-the-badge&logo=woocommerce&logoColor=white)](https://superfunky.pro)
+[![Portfolio](https://img.shields.io/badge/Portfolio-view_work-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://portfolio-g-l.netlify.app)
 [![Open Source](https://img.shields.io/badge/Open_Source-coded--letter-2EA44F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/coded-letter)
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
