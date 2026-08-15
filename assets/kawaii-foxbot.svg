@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="180" viewBox="0 0 200 180" role="img" aria-labelledby="title desc">
+  <title id="title">Minimal kawaii fox robot avatar</title>
+  <desc id="desc">A quiet cream fox-shaped robot head with slow blinking eyes, a tiny status light, and subtle ear movement.</desc>
+  <style>
+    .fox {
+      animation: hover 6s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .eyes {
+      animation: blink 8s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .ear {
+      animation: twitch 11s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: 65% 90%;
+    }
+    .status {
+      animation: breathe 3.8s ease-in-out infinite;
+    }
+    @keyframes hover {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-1.5px); }
+    }
+    @keyframes blink {
+      0%, 47%, 50%, 100% { transform: scaleY(1); }
+      48.5% { transform: scaleY(.12); }
+    }
+    @keyframes twitch {
+      0%, 79%, 86%, 100% { transform: rotate(0); }
+      82% { transform: rotate(-2.5deg); }
+    }
+    @keyframes breathe {
+      0%, 100% { opacity: .45; }
+      50% { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <g class="fox">
+    <g class="ear">
+      <path d="M43 68 56 18l38 39Z" fill="#D28E76" stroke="#263342" stroke-width="4" stroke-linejoin="round"/>
+      <path d="m56 48 5-20 19 24Z" fill="#F5D8CF"/>
+    </g>
+    <path d="m106 57 38-39 13 50Z" fill="#D28E76" stroke="#263342" stroke-width="4" stroke-linejoin="round"/>
+    <path d="m120 52 19-24 5 20Z" fill="#F5D8CF"/>
+
+    <path d="M48 61c10-10 27-15 52-15s42 5 52 15c9 10 12 25 9 43-5 29-29 48-61 48s-56-19-61-48c-3-18 0-33 9-43Z" fill="#FFFDFC" stroke="#263342" stroke-width="4"/>
+    <path d="M48 66c9-9 22-15 39-18L78 79C70 89 58 94 40 95c0-12 3-22 8-29Zm104 0c-9-9-22-15-39-18l9 31c8 10 20 15 38 16 0-12-3-22-8-29Z" fill="#E9B29D" opacity=".55"/>
+    <path d="M63 73c10-8 22-11 37-11s27 3 37 11" fill="none" stroke="#E8EEF0" stroke-width="3" stroke-linecap="round"/>
+
+    <g class="eyes">
+      <rect x="61" y="87" width="25" height="18" rx="9" fill="#263342"/>
+      <rect x="114" y="87" width="25" height="18" rx="9" fill="#263342"/>
+      <circle cx="78" cy="93" r="3" fill="#B8DDD6"/>
+      <circle cx="131" cy="93" r="3" fill="#DDB8B1"/>
+    </g>
+
+    <path d="M75 111c7-5 16-7 25-7s18 2 25 7c-2 19-12 29-25 29s-23-10-25-29Z" fill="#F7F3EF"/>
+    <path d="m94 116 6-4 6 4-6 6Z" fill="#263342"/>
+    <path d="M100 122v5m0 0-5 4m5-4 5 4" fill="none" stroke="#263342" stroke-width="2.5" stroke-linecap="round"/>
+
+    <path d="M69 119H50m19 8H45m86-8h19m-19 8h24" fill="none" stroke="#9DB1B8" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="44" cy="95" r="3" fill="#B8DDD6"/>
+    <circle cx="156" cy="95" r="3" fill="#DDB8B1"/>
+
+    <circle cx="94" cy="69" r="2.5" fill="#D7DEE2"/>
+    <circle class="status" cx="100" cy="69" r="2.5" fill="#7FC8BC"/>
+    <circle cx="106" cy="69" r="2.5" fill="#D7DEE2"/>
+
+    <path d="M84 152v8h32v-8M76 162h48" fill="none" stroke="#263342" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
