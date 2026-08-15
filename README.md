@@ -1,7 +1,5 @@
 <div align="center">
-
-<img src="./assets/kawaii-foxbot.svg" width="132" alt="Animated minimal kawaii fox robot avatar">
-
+  
 # George Lazaridis
 
 **Senior engineering team at [Coded Letter](https://codedletter.com) · Product engineer · Creative technologist**
