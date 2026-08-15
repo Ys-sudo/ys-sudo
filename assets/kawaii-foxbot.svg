@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="220" height="210" viewBox="0 0 220 210" role="img" aria-labelledby="title desc">
-  <title id="title">Kawaii robotic kitsune mask avatar</title>
-  <desc id="desc">A softly animated Japanese anime-style fox robot mask in the Coded Letter brand colors.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="190" viewBox="0 0 220 190" role="img" aria-labelledby="title desc">
+  <title id="title">Colorful kawaii fox robot avatar</title>
+  <desc id="desc">A minimal friendly fox robot with rounded shapes, colorful ears, big eyes, and subtle animation.</desc>
   <style>
-    .kitsune {
+    .foxbot {
       animation: hover 6s ease-in-out infinite;
       transform-box: fill-box;
       transform-origin: center;
@@ -19,8 +19,6 @@
     }
     .status {
       animation: breathe 3.6s ease-in-out infinite;
-      transform-box: fill-box;
-      transform-origin: center;
     }
     @keyframes hover {
       0%, 100% { transform: translateY(0); }
@@ -28,59 +26,54 @@
     }
     @keyframes blink {
       0%, 47%, 50%, 100% { transform: scaleY(1); }
-      48.5% { transform: scaleY(.1); }
+      48.5% { transform: scaleY(.08); }
     }
     @keyframes twitch {
       0%, 79%, 86%, 100% { transform: rotate(0); }
       82% { transform: rotate(-2deg); }
     }
     @keyframes breathe {
-      0%, 100% { opacity: .45; transform: scale(.9); }
-      50% { opacity: 1; transform: scale(1.08); }
+      0%, 100% { opacity: .45; }
+      50% { opacity: 1; }
     }
     @media (prefers-reduced-motion: reduce) {
       * { animation: none !important; }
     }
   </style>
 
-  <g class="kitsune">
+  <g class="foxbot">
     <g class="ear">
-      <path d="M47 75 58 17l43 40Z" fill="#FE86AA" stroke="#11131A" stroke-width="5" stroke-linejoin="round"/>
-      <path d="m60 52 5-24 24 27Z" fill="#FFEE67"/>
-      <path d="M68 47 64 65" stroke="#FF5561" stroke-width="4" stroke-linecap="round"/>
+      <path d="M49 67 59 18l39 35Z" fill="#FE86AA" stroke="#11131A" stroke-width="6" stroke-linejoin="round"/>
+      <path d="m62 48 4-19 20 22Z" fill="#FFEE67"/>
     </g>
-    <path d="m119 57 43-40 11 58Z" fill="#6AE1C6" stroke="#11131A" stroke-width="5" stroke-linejoin="round"/>
-    <path d="m131 55 24-27 5 24Z" fill="#FFEE67"/>
-    <path d="m152 47 4 18" stroke="#00A0D5" stroke-width="4" stroke-linecap="round"/>
+    <path d="m122 53 39-35 10 49Z" fill="#6AE1C6" stroke="#11131A" stroke-width="6" stroke-linejoin="round"/>
+    <path d="m134 51 20-22 4 19Z" fill="#FFEE67"/>
 
-    <path d="M52 70c14-17 34-25 58-25s44 8 58 25l-6 49c-4 29-23 52-52 70-29-18-48-41-52-70Z" fill="#FFFDF7" stroke="#11131A" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M43 75c0-23 18-38 44-38h46c26 0 44 15 44 38v43c0 31-28 51-67 51s-67-20-67-51Z" fill="#FFF" stroke="#11131A" stroke-width="6"/>
+    <path d="M48 73c8-20 24-30 47-34h30c23 4 39 14 47 34-19-8-39-12-62-12S67 65 48 73Z" fill="#FFE200"/>
 
-    <path d="M55 77c11-14 26-23 44-27L86 82c-8 10-19 17-32 20Zm110 0c-11-14-26-23-44-27l13 32c8 10 19 17 32 20Z" fill="#FFEE67" opacity=".68"/>
-    <path d="m95 54 15-8 15 8-6 21h-18Z" fill="#6AE1C6" stroke="#11131A" stroke-width="3" stroke-linejoin="round"/>
-    <circle class="status" cx="110" cy="59" r="4" fill="#FFE200"/>
-
-    <path d="m74 82 16-9 12 8M146 82l-16-9-12 8" fill="none" stroke="#FF5561" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M76 77 67 68m77 9 9-9" stroke="#FE86AA" stroke-width="4" stroke-linecap="round"/>
+    <circle class="status" cx="110" cy="52" r="4" fill="#00A0D5"/>
+    <circle cx="99" cy="52" r="3" fill="#FF5561"/>
+    <circle cx="121" cy="52" r="3" fill="#6AE1C6"/>
 
     <g class="eyes">
-      <path d="M65 98c10-12 25-15 39-5-12 0-23 5-32 13Z" fill="#11131A"/>
-      <path d="M155 98c-10-12-25-15-39-5 12 0 23 5 32 13Z" fill="#11131A"/>
-      <circle cx="87" cy="96" r="3.5" fill="#6AE1C6"/>
-      <circle cx="133" cy="96" r="3.5" fill="#FE86AA"/>
-      <circle cx="88" cy="95" r="1.4" fill="#FFF"/>
-      <circle cx="132" cy="95" r="1.4" fill="#FFF"/>
+      <rect x="61" y="79" width="39" height="35" rx="15" fill="#11131A"/>
+      <rect x="120" y="79" width="39" height="35" rx="15" fill="#11131A"/>
+      <circle cx="88" cy="89" r="6" fill="#6AE1C6"/>
+      <circle cx="147" cy="89" r="6" fill="#FE86AA"/>
+      <circle cx="90" cy="87" r="2" fill="#FFF"/>
+      <circle cx="149" cy="87" r="2" fill="#FFF"/>
     </g>
 
-    <path d="M66 114 53 109m16 14-14 1m15 8-12 7M154 114l13-5m-16 14 14 1m-15 8 12 7" fill="none" stroke="#00A0D5" stroke-width="4" stroke-linecap="round"/>
-    <path d="m73 119-10-3m84 3 10-3" stroke="#FE86AA" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="60" cy="119" r="7" fill="#00A0D5" opacity=".72"/>
+    <circle cx="160" cy="119" r="7" fill="#FF5561" opacity=".72"/>
 
-    <path d="M88 124c6-5 13-7 22-7s16 2 22 7l-5 31-17 19-17-19Z" fill="#F7FAFA" stroke="#DCE7E8" stroke-width="3" stroke-linejoin="round"/>
-    <path d="m103 130 7-5 7 5-7 7Z" fill="#11131A"/>
-    <path d="M110 137v7m0 0-6 5m6-5 6 5" fill="none" stroke="#11131A" stroke-width="3" stroke-linecap="round"/>
-    <path d="m97 158 13 11 13-11" fill="none" stroke="#FF5561" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="88" y="119" width="44" height="34" rx="15" fill="#F7FAFA" stroke="#11131A" stroke-width="4"/>
+    <path d="m103 131 7-5 7 5-7 7Z" fill="#11131A"/>
+    <path d="M110 138v4m0 0-6 5m6-5 6 5" fill="none" stroke="#11131A" stroke-width="3" stroke-linecap="round"/>
 
-    <circle cx="59" cy="111" r="3" fill="#6AE1C6" stroke="#11131A" stroke-width="2"/>
-    <circle cx="161" cy="111" r="3" fill="#FE86AA" stroke="#11131A" stroke-width="2"/>
-    <path d="M94 183v9h32v-9M87 194h46" fill="none" stroke="#11131A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="43" cy="105" r="4" fill="#6AE1C6" stroke="#11131A" stroke-width="3"/>
+    <circle cx="177" cy="105" r="4" fill="#FE86AA" stroke="#11131A" stroke-width="3"/>
+    <path d="M94 169v8h32v-8M87 179h46" fill="none" stroke="#11131A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
